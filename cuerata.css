@@ -1,0 +1,22 @@
+.carousel-container {
+    width: 1585px;
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-slide {
+    display: none;
+    width: 100%;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Optional: Style for navigation buttons */
+  .carousel-control {
+    cursor: pointer;
+  }
+  
