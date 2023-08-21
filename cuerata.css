@@ -1,10 +1,10 @@
 .carousel-container {
     width: 1585px;
-    height: 1000px;
+    height:700px;
     overflow: hidden;
-    position: relative;
+    position: absolute;
+    z-index: 0;
   }
-  
   .carousel-slide {
     display: none;
     width: 100%;
@@ -19,4 +19,45 @@
   .carousel-control {
     cursor: pointer;
   }
+ /* cuerata.css */
+.logo {
+  right: 1300px;
+  text-align: center;
+  margin: 20px 0;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  
+  
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 90px;
+  
+  
+}
+/* cuerata.css */
+.titulo {
+  display: flex; /* Hace que los elementos sean flexibles y se alineen horizontalmente */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  text-align: center;
+}
+
+.titulo img {
+  max-width: 30px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+  margin-right: 10px; /* Agrega espacio entre las imágenes */
+}
+
+.titulo2 {
+  margin: 0; /* Agrega espacio entre las imágenes y el título */
+  text-align: center;
+  
+}
+.titulo2{
+  text-align: center;
+}
+
+
   
