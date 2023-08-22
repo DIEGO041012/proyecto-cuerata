@@ -1,18 +1,27 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; 
+}
 .carousel-container {
-    width: 1585px;
+    width:100%;
     height:700px;
     overflow: hidden;
-    position: absolute;
-    z-index: 0;
+    position: relative;
+    top: 70px;
   }
   .carousel-slide {
-    display: none;
+    padding:  0vh 12.5vh 0vh 25vh;
     width: 100%;
+  }
+  .navegador{
+    z-index: 2;
   }
   
   .carousel-slide img {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 80vh;
+    border-radius: 30px;
   }
   
   /* Optional: Style for navigation buttons */
@@ -21,52 +30,35 @@
   }
  /* cuerata.css */
 .logo {
-  right: 1300px;
-  text-align: center;
-  margin: 20px 0;
+  top: 70px;
   width: 200px;
+  left: 30vh;
   position: absolute;
   z-index: 1;
-  
-  
 }
 
+.contenedor{
+  display: flex;
+  flex-direction: column;
+}
 .logo img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 90px;
-  
-  
+}
+.busqueda{
+  height: 100%;
+  align-items: center;
 }
 /* cuerata.css */
-.titulo {
-  display: flex; /* Hace que los elementos sean flexibles y se alineen horizontalmente */
-  align-items: center; /* Alinea los elementos verticalmente en el centro */
+.titulo{
   text-align: center;
 }
-
-.titulo img {
-  max-width: 30px; /* Ajusta el tamaño de las imágenes según tus necesidades */
-  margin-right: 10px; /* Agrega espacio entre las imágenes */
-}
-
-.titulo2 {
-  margin: 0; /* Agrega espacio entre las imágenes y el título */
-  text-align: center;
-  
-}
-.titulo2{
-  text-align: center;
-}
-
 .ventas{
   width: 100%;
-  height: 100%;
+  height: 20vh;
   display: flex;
-  flex-flow: column;
-  margin-block-start: 20px;
-  position: relative;
-  top : 800px;
+  flex-direction: column;
 }
 
 .etiqueta{
@@ -77,19 +69,11 @@
   justify-content: space-around;
 }
 
-.h1{
+.titulo3{
+  text-align: center;
   font-weight:700;
   font-family: 'Times New Roman', Times, serif;
   font-size: xx-large;
-}
-
-.botton{
-  width: 9%;
-  height: 4vh;
-  border-radius: 20px;
-  margin-inline-start: 180vh;
-  margin-block-start: 50px;
-  margin-block-end: 10px;
 }
 
 .tarjeta{
@@ -114,7 +98,7 @@
 
 .img-etiqueta{
   width: 270px;
-  height: 270px;
+  height: 350px;
   border-radius: 10px;
 }
 
@@ -125,8 +109,6 @@
 }
 
 .text-etiqueta{
-      color: white;
-      text-decoration: none;}
-
-
-  
+  color: white;
+  text-decoration: none;
+}
