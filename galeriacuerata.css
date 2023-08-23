@@ -1,17 +1,20 @@
 *{
     box-sizing: border-box;
+    margin-block-start: 10px;
 }
 
 .pagina{
+    
     height: 100%;
     width: 100%;
 }
 
 .navegacion{
-    height: 10vh;
+    height: 5vh;
     width: 100%;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid black;
 }
 
 .carrito{
@@ -27,8 +30,14 @@
 }
 
 img{
-    height: 70vh;
+    justify-content: center;
+    height: 90vh;
     width: 100%;
+    border-radius:40px ;
+    -webkit-border-radius:40px ;
+    -moz-border-radius:40px ;
+    -ms-border-radius:40px ;
+    -o-border-radius:40px ;
 }
 
 .ventas{
@@ -89,7 +98,7 @@ img{
 }
 
 .boton-etiqueta{
-    background-color: blue;
+    background-color: rgb(120, 120, 128);
     border-radius: 8px;
     border: 0;
 }
@@ -97,4 +106,5 @@ img{
 .text-etiqueta{
         color: white;
         text-decoration: none;
+        z-index: 1;
         }
