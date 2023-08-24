@@ -2,7 +2,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif; 
 }
 .contenedor{
   display: flex;
@@ -14,18 +13,40 @@
   top: 70px;
 }
 .barraNavegadora{
+  scroll-padding: 0;
   width: 100%;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   background: transparent;
   z-index: 1;
-  position: fixed;
+  position: absolute;
   top: 100px;
 }
+.nombre{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
+}
+.navegadoraCarrucel{
+}
 .carousel-slide img {
+  opacity: 300%;  
   width: 100%;
   height:100vh;
+}
+.btnBuscar{
+  width: 15vh;
+  height: 5vh;
+  border-radius: 20px;
+}
+.inputBuscar{
+  width: 35vh;
+  height: 5vh;
+  border-radius: 20px;
+  background: transparent;
+  filter: blur(1px);
 }
 .logo {
   top: 70px;
