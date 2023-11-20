@@ -82,7 +82,6 @@ body {
     font-family: arial;
   }
   .container{
-    width: 1203hv;
     position: relative;
     display: flex;
     justify-content: space-between;
