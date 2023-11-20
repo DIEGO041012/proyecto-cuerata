@@ -1,101 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./view/assets/css/cuerata.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-    <title>Cuerata</title>
-  </head>
-  <body>
-    <main class="contenedor ">
-    
-
-      <section class="navegadoraCarrucel">
-        <nav class="barraNavegadora">
-          <a class="enlace" aria-current="page" href="#Catalogo">Catalogo</a>
-          <a class="enlace" href="#Contacto" >Contacto y sobre nosotros</a>  
-        </nav>
-        <div class="logo">
-            <img src="view/assets/img/Logo-cuerata.png" alt="Imagen 3" />
-        </div>
-        <div class="carousel-container">
-          <div class="carousel-slide">
-            <img src="./view/assets/img/bolso-verde.png" alt="Imagen 1" />
-          </div>
-          <div class="carousel-slide">
-              <img src="./view/assets/img/bolso-rojo.png" alt="Imagen 2" />
-          </div>
-          <div class="carousel-slide">
-              <img src="./view/assets/img/correas-colgadas.png" alt="Imagen 3" />
-          </div>
-          <div class="carousel-slide">
-              <img src="./view/assets/img/correas-enrollo.png" alt="Imagen 3" />
-          </div>
-        </div>
-      </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./galeriacuerata.css">
+  <title>Marca tu estilo</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Cuerata</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Lo nuevo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quienes somos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nuestras redes
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://www.facebook.com/search/top?q=cuerata">Facebook</a></li>
+              <li><a class="dropdown-item" href="https://www.instagram.com/cueratamarcatuestilo/">Intagram</a></li>
+              <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <h1>Cuerata Marca tu estilo</h1>
   
-      <section class="ventas" id="Catalogo">
-        <section>
-          <h1 class="titulo3">Amor | Sentir | Vivir</h1>
-        </section>
-        <section class="etiqueta">
-          <div class="tarjeta">
-            <h3 class="nombrecatalogo">Bolsos</h3>
-            <img class="img-etiqueta" src="./view/assets/img/bolso-verde.png" alt="..." />
-            <button class="boton">
-              <span class="ln-btn"></span>
-              <span class="ln-btn"></span>
-              <span class="ln-btn"></span>
-              <span class="ln-btn"></span>
-              Ver mas
-            </button>
-          </div>
-
-          <div class="tarjeta">
-            <h3 class="nombrecatalogo">Correas</h3>
-            <img class="img-etiqueta" src="./view/assets/img/correas-colgadas.png" alt="..." />
-            <button class="boton">
-              <span class="ln-btn"></span>
-              <span class="ln-btn"></span>
-              <span class="ln-btn"></span>
-              <span class="ln-btn"></span>
-              Ver mas
-            </button>
-          </div>
-
-          <div class="tarjeta">
-            <h3 class="nombrecatalogo">Riñoneras</h3>
-            <img class="img-etiqueta" src=".//view/assets/img/riñoneras-negra-marron-modelos.jpg" alt="..." />
-            <button class="boton">
-              <span class="ln-btn"></span>
-              <span class="ln-btn"></span>
-              <span class="ln-btn"></span>
-              <span class="ln-btn"></span>
-              Ver mas
-            </button>
-          </div>
-
-          <div class="tarjeta">
-            <h3 class="nombrecatalogo">Carteras</h3>
-            <img class="img-etiqueta" src="./view/assets/img/billeteras1.1.jpg" alt="..." />
-            <button class="boton">
-              <span class="ln-btn"></span>
-              <span class="ln-btn"></span>
-              <span class="ln-btn"></span>
-              <span class="ln-btn"></span>
-              Ver mas
-            </button>
-          </div>
-        </section>
-      </section>
-
-      <section class="contacto" id="Contacto">
-
-      </section>
-    </main>
-    <script src="cuerata.js"></script>
-  </body>
+    <h2 class="credit"><a href="https://www.instagram.com/cueratamarcatuestilo/" target="_blank">Lo Nuevo</a></h2>
+  </section>
+  
+  <div class="gallery">
+  
+    <div class="image">
+      <img src="./view/assets/img/1.png" alt="bolso">
+    </div>
+    <div class="image">
+      <img src="./view/assets/img/2.png" alt="">
+    </div>
+    <div class="image">
+      <img src="./view/assets/img/riñonera tienda.webp" alt="">
+    </div>
+    <div class="image">
+      <img src="./view/assets/img/bolso rojo.jpg" alt="">
+    </div>
+    <div class="image">
+      <img src="./view/assets/img/publicidad cuerata1.jpg" alt="">
+    </div>
+    <div class="image">
+      <img src="./view/assets/img/publicidad cuerata2.webp.jpg" alt="">
+    </div>
+    <div class="image">
+  
+      <img src="./view/assets/img/bolso gorge.jpg" alt="">
+    </div>
+    <div class="image">
+      <img src="./view/assets/img/bolso billeteras.webp" alt="">
+    </div>
+  </div>
+  <!-- partial -->
+  
+        <script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+       <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script><script  src="./cuerata.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
 </html>
