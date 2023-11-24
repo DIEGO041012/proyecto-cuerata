@@ -1,5 +1,5 @@
 img {
-    width: 1164px;
+    width: 1022px;
     height: 600px;
     display: flex;
     
@@ -83,3 +83,16 @@ h1{
   .project-content .common-btn img {
     position: relative;
   }
+  .parrafo1 {
+    border: 2px solid #ccc; /* Grosor y color del borde */
+    padding: 20px; /* Espaciado interno para separar el contenido del borde */
+    border-radius: 10px; /* Bordes redondeados para un aspecto más suave */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para un efecto de elevación */
+  }
+  
+  .parrafo1 p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+  }
+  /*carrucel*/
+  
+  
