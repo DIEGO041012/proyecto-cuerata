@@ -9,6 +9,7 @@ body {
     padding: 5vw;
     width: 100%;
     height: 100%;
+    background-image: url('./view/assets/img/tienda4.jfif');
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
